@@ -1,0 +1,10 @@
+Link { text-decoration: none;}
+a{text-decoration: none;}
+.appbody{
+        padding-top: 10px;
+        height: 100%;
+        background: #f1f1f1;
+        padding: 2.5%;
+        margin: 25px;
+        border-radius: 22.25px;
+}

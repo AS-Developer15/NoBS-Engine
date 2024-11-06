@@ -1,0 +1,27 @@
+footer{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.myfd{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.mypadser{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin: 2.5%;
+
+}
+a,Link { text-decoration: none;}
+dd{margin-bottom: 10px;}
+.myBtn{width: 87.5%;}
+.mainBody{margin: 10px;
+}
+.formwid{width: 87.5%;}
+.result{margin: 10px;}
+.rescard{width: 87.5%;}
+.langselc{width: 87.5%;}
+
+blockquote, .card-header{text-align: left;}
+.ssVal{text-align: left;}
