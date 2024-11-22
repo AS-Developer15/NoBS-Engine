@@ -13,7 +13,7 @@ function Translate() {
           let inputValue = inpVal.value;
           let langInpVal =document.getElementById("langSel").value
 
-        const genAI = new GoogleGenerativeAI("xxx");
+        const genAI = new GoogleGenerativeAI("AIzaSyDEMaUTq6Oeqg50Iz4cGptHRQIeEnexwM4");
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
         const prompt = `Create a Translated string of the content of ${inputValue} in ${langInpVal} in formal context
         without any explaination `;

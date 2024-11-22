@@ -19,7 +19,7 @@ function FooterComp() {
 </div>
 <hr />
 <h6>
-    AS.Developer and Paritosh Chandel Ltd
+    All rights reserved to AS.Developer Ltd
 </h6>
     </footer>
 

@@ -7,13 +7,13 @@ const ResultFunc =async () => {
   try {
     let inpVal =document.getElementById("inpVal")
     let inputValue = inpVal.value;
-    const genAI = new GoogleGenerativeAI("xxx");
+    const genAI = new GoogleGenerativeAI("AIzaSyDEMaUTq6Oeqg50Iz4cGptHRQIeEnexwM4");
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-    const prompt = `Generate a paragraph on the topic of ${inputValue} without any potential spam.`;
+    const prompt = `Generate a paragraph on the topic of ${inputValue} if the content to be generated is vulgar than return the string "No Result".`;
     const result = await model.generateContent(prompt);
     
     // Changing the response variable 
-    const resVal =(`The search result for ${inputValue} is ${result.response.text()} `)
+    const resVal =(`${result.response.text()} `)
     
     let  pval =document.getElementById("paragraph")
     console.log(pval.innerHTML);   

@@ -51,6 +51,25 @@ function Information() {
 <hr />
   </dd>
 
+  <br/>
+  <br/>
+
+    <dt className="col-sm-3"><h1 className="display-6">Code</h1></dt>
+  <dd className="col-sm-9">
+    <p>
+    Curious about the inner workings of NoBS Engine?
+    <br />
+      The source code for NoBS Engine is availiable in open source. <br /> Check out the official source code for the NoBS Engine from Github. <br />
+      "https://github.com/AS-Developer15/NoBS-Engine/tree/main"
+    </p>
+    <a href="https://github.com/AS-Developer15/NoBS-Engine/tree/main" rel="noopener noreferrer" >
+     <button type="button" className="btn btn-dark">Check Now</button>
+     </a>
+<hr />
+  </dd>
+
+
+
 </dl>
 </div>
 </> 

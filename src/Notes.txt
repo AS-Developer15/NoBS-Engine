@@ -1,0 +1,5 @@
+npm install @google/generative-ai
+npm i bootstrap@5.3.3
+npm i react-router-dom
+npm install
+https://as-engine15.web.app/
